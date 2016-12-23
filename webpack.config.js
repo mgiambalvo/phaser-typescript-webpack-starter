@@ -14,6 +14,9 @@ module.exports = {
     ]
   },
   devtool: 'cheap-source-map',
+  resolve: {
+    extensions: ['', '.ts', '.js']
+  },
   output: {
     pathinfo: true,
     path: path.resolve(__dirname, 'dist'),

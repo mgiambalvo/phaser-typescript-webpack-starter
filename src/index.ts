@@ -2,9 +2,9 @@
 /// <reference path="../lib/phaser.d.ts"/>
 import * as Phaser from 'phaser'
 
-import {BootState} from './states/boot.ts'
-import {SplashState} from './states/splash.ts'
-import {GameState} from './states/game.ts'
+import {BootState} from './states/boot'
+import {SplashState} from './states/splash'
+import {GameState} from './states/game'
 
 class Game extends Phaser.Game {
 
